@@ -15,8 +15,8 @@ jobs:
   steps:
    - uses: actions/checkout@v2
    - name: hello word
-   - run: echo "Hello World!"
-   - shell: bash
+     run: echo "Hello World!"
+     shell: bash
 
 goodbay:
  runs-on: ubuntu-latest
